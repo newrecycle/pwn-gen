@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
 
 # install go packages
 for pkg in bettercap pwngrid; do
